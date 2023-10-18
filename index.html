@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARI SUDHAN</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/50bd97cf9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Hari-designstyle-cartoon-m (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificate">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi,I'm <span>Hari</span> <br>Sudhan From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----About-->
+    <div id="about">
+        <div class="cotainer">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="./IMG-20230115-WA0134.jpg" alt="my image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Hari Sudhan, a front-end developer with a passion for creating beautiful and user-friendly web experiences. I'm skilled in HTML, CSS, JavaScript, React, and Vue.js.
+                        <br>
+                        <br>
+                        I'm also a big believer in continuous learning and improvement. I'm always looking for new ways to expand my skills and knowledge. I'm also active in the front-end development community, and I regularly contribute to open source projects  
+                    </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>⭐⭐⭐⭐</li>
+                            <li><span>CSS</span><br>⭐⭐⭐</li>
+                            <li><span>JAVASCRIPT</span><br>⭐⭐⭐</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                            <li><span>Scaler</span><br><br>Unlocking the Power of JavaScript</li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E Computer Science</span><br>Hindusthan college of Enginnerring and Technology</li>
+                            <li><span>HSC</span><br> Matric Hr Sec School</li>
+                            <li><span>SSLC</span><br>Balakrishna Matric Hr Sec School</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- certificates -->
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="certificate-list">
+          <div >
+            <i class="fa-brands fa-square-js"></i>
+            <h2>JAVASCRIPT</h2>
+            <br>
+            <p>JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+            </p>
+            <br>
+            <a href="https://www.linkedin.com/shareArticle?url=https://moonshot.scaler.com/s/li/56m8J96SJQ">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>JAVA</h2>
+            <br>
+            <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+            <br>
+            <a href="https://www.scaler.com/topics/course/java-beginners/">Learn More</a>
+          </div>  
+          <div>
+            <h2>Node.js</h2>
+            <p></p>
+            <a href="#">Learn More</a>
+          </div>  
+        </div>
+
+    </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./Screenshot (47).png" alt="Sj Engineering">
+                <div class="layer">
+                    <h3>Web Page</h3>
+                    <p>Created a Web Page with the help HTML and CSS</p>
+                    <a href="https://harisudhan431.github.io/Eng/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Screenshot (48).png" alt="menu">
+                <div class="layer">
+                    <h3>Restaurant Menu</h3>
+                    <p>Basic Menu card with HTML and CSS</p>
+                    <a href="https://harisudhan431.github.io/menu/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Screenshot (50).png" alt="blub">
+                <div class="layer">
+                    <h3>Simple JavaScript Program</h3>
+                    <p>Blub ON/OFF program with javascript </p>
+                    <a href="https://harisudhan431.github.io/blub/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/harisudhan431" class="btn">See More</a>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>E-mail:harisudhan431@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>Phone No:9025269418 </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/hari-sudhan-227b2824b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a> 
+                    <a href="https://github.com/harisudhan431"><i class="fa-brands fa-github"></i></a> 
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="./HariSudhan_InternshalaResume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name"required>
+                    <input type="email" name="Email" placeholder="your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright @ Hari Sudhan">
+        <p>Copyright  </p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        var Sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            Sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            Sidemenu.style.right ="-200px";
+        }
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwUjIL-8DiYfg-Tog3AOz0TI_R7YEzogRpZteq33bP9J00E2holQ_jMIYpoZs_gwaXi5w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => { 
+        msg.innerHTML ="Message sent successfully"
+        setTimeout(function()
+        {
+            msg.innerHTML =""
+        },4000)
+            form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+    </script>
+</body>
+</html>
